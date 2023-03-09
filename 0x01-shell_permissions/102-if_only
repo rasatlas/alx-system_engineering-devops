@@ -1,0 +1,2 @@
+#!/bin/bash
+[stat %U hello = guillaume] && echo chown betty hello || |
