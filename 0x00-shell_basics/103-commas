@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a --classify --format=comma
+ls -amvp
