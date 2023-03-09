@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a --format=comma
+ls -a --classify --format=comma
