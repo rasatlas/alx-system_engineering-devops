@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -B 0 -A 0 'The die is cast'  iacta
+head -n 3 iacta | tail -n 1
