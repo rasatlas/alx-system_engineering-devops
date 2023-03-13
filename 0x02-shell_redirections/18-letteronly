@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -v '^[0-9]' /etc/ssh/sshd_config
