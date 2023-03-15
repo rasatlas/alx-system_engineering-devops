@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((bestchol#$WATER+bestchol#$STIR))
+printf $((bestchol#$WATER+bestchol#$STIR))
