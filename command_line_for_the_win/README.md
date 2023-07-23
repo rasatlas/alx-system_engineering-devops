@@ -26,9 +26,13 @@
 * The screenshoots of completed level should be inside the dir /root/alx-system_engineering-devops/command_line_for_the_win/
 
 # Steps followed to push screenshots into the sandbox:
-1: sftp username@hostname
-2: sftp will then ask for the password to the sandbox. After inputting it, the sftp connection will be instantiated. An sftp prompt will appear, looking like the following:
+1 - sftp username@hostname
+
+2 - sftp will then ask for the password to the sandbox. After inputting it, the sftp connection will be instantiated. An sftp prompt will appear, looking like the following:
 sftp>
-3: Once connected, navigate to the directory where you want to upload the screenshots. In my case /alx-system_engineering_devops/command_line_for_the_win/
-4: Use the sftp put command to upload the screenshots from your local machine to the sandbox environment.
-5: Once I make sure that the screenshots are successfully uploaded to the sandbox, I exited sftp by using the exit command.
+
+3 - Once connected, navigate to the directory where you want to upload the screenshots. In my case /alx-system_engineering_devops/command_line_for_the_win/
+
+4 - Use the sftp put command to upload the screenshots from your local machine to the sandbox environment.
+
+5 - Once I make sure that the screenshots are successfully uploaded to the sandbox, I exited sftp by using the exit command.
