@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# A Bash script that displays Best School 10 times using while loop.
+# Write a Bash script that loops from 1 to 10 and:
+# displays bad luck for the 4th loop iteration
+# displays good luck for the 8th loop iteration
+# displays Best School for the other iterations
 declare -i counter=1
 while (( counter <= 10 ))
 do
