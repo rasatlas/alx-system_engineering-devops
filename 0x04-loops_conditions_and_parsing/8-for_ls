@@ -7,8 +7,7 @@
 # You must use the for loop (while and until are forbidden)
 # Do not display hidden files
 ls . > list
-for name in $(cat list)
+for f in list
 do
-	cut -d- -f2 list
-	break
+	cut -d- -f2 $f
 done
