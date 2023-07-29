@@ -7,8 +7,8 @@
 # 67-stop_me_if_you_can, that kills the 7-highlander process instead of the
 # 4-to_infinity_and_beyond one.
 
-trap "echo 'I am invincible!!!'" SIGTERM
-while ((1))
+trap "echo 'I am invincible!!!'" 15
+while true
 do
     echo "To infinity and beyond"
     sleep 2
