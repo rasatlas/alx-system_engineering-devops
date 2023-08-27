@@ -37,7 +37,7 @@ __0. Simple web stack__
 	- You must be able to explain some specifics about this infrastructure:
 		- What is a server
 		- What is the role of the domain name
-		- What type of DNS record www is in www.foobar.com
+		- What type of DNS record www is in `www.foobar.com`
 		- What is the role of the web server
 		- What is the role of the application server
 		- What is the role of the database
