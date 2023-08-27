@@ -54,7 +54,7 @@ __1. Distributed web infrastructure__
 
 - On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`.
 
-__Requirements:__
+- __Requirements:__
 
 	- You must add:
 		- 2 servers
@@ -82,7 +82,7 @@ __2. Secured and monitored web infrastructure__
 
 - On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com`, it must be secured, serve encrypted traffic, and be monitored.
 
-__Requirements:__
+- __Requirements:__
 
 	- You must add:
 		- 3 firewalls
@@ -109,7 +109,7 @@ __3. Scale up__
 
 - Read: [`Application server vs web server`](https://www.nginx.com/resources/glossary/application-server-vs-web-server/)
 
-__Requirements:__
+- __Requirements:__
 
 	- You must add:
 		- 1 server
