@@ -24,7 +24,7 @@ __0. Simple web stack__
 
 - On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via `www.foobar.com`. Start your explanation by having a user wanting to access your website.
 
-__Requirements:__
+- __Requirements:__
 
 	- You must use:
 		- 1 server
