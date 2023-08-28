@@ -9,7 +9,7 @@
     - It provides a way to move the resources in a topological form and provide the translation to be done using the IP addresses and domain names.
     - Domain names provide a way to the registrants to refer to the domain owners for their registration of the domain and have the ownership of it.
 
-- __What type of DNS record www is in www.foobar.com__
+- __What type of DNS record www is in `www.foobar.com`__
     - It is a CNAME DNS record. It's a subdomain which points to the SLD (Second Level Domain) foobar.com in the CNAME DNS record.
     - This subdomain contains a website's homepage and its most important pages. The www subdomain is so widely used that most domain registrars include it with domain name purchases.
 
