@@ -33,12 +33,12 @@ $ gem install puppet-lint
 
 ## Tasks
 0 - Creating a file:
-	- Using Puppet, create a file in /tmp.
-	- Requirements:
-		- File path is `/tmp/school`
-		- File permission is `0744`
-		- File owner is `www-data`
-		- File contains `I love Puppet`
+	* Using Puppet, create a file in /tmp.
+	* Requirements:
+		* File path is `/tmp/school`
+		* File permission is `0744`
+		* File owner is `www-data`
+		* File contains `I love Puppet`
 - Example:
 ```bash
 root@6712bef7a528:~# puppet-lint --version
