@@ -5,5 +5,10 @@
 # using a password
 
 Host *
+	HostName 100.25.20.203
+	User ubuntu
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
+	GSSAPIAuthentication yes
+	HashKnownHosts yes
+	SendEnv LANG LC_*
