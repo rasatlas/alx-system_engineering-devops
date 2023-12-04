@@ -49,11 +49,11 @@ sylvain@ubuntu$
 Install and configure HAproxy on your `lb-01` server.</br>
 
 Requirements: </br>
-	- Configure HAproxy so that it send traffic to `web-01` and `web-02`
-	- Distribute requests using a roundrobin algorithm
-	- Make sure that HAproxy can be managed via an init script
-	- Make sure that your servers are configured with the right hostnames: `[STUDENT_ID]-web-01` and `[STUDENT_ID]-web-02`. If not, follow this [tutorial](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-hostname.html).
-	- For your answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements</br>
+- Configure HAproxy so that it send traffic to `web-01` and `web-02`
+- Distribute requests using a roundrobin algorithm
+- Make sure that HAproxy can be managed via an init script
+- Make sure that your servers are configured with the right hostnames: `[STUDENT_ID]-web-01` and `[STUDENT_ID]-web-02`. If not, follow this [tutorial](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-hostname.html).
+- For your answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements</br>
 
 Example:
 
@@ -88,6 +88,6 @@ sylvain@ubuntu$
 2. Add a custom HTTP header with Puppet </br>
 
 Just as in task #0, we’d like you to automate the task of creating a custom HTTP header response, but with Puppet.
-	- The name of the custom HTTP header must be `X-Served-By`
-	- The value of the custom HTTP header must be the hostname of the server Nginx is running on
-	- Write `2-puppet_custom_http_response_header.pp` so that it configures a brand new Ubuntu machine to the requirements asked in this task
+- The name of the custom HTTP header must be `X-Served-By`
+- The value of the custom HTTP header must be the hostname of the server Nginx is running on
+- Write `2-puppet_custom_http_response_header.pp` so that it configures a brand new Ubuntu machine to the requirements asked in this task
