@@ -36,7 +36,7 @@ Requirements:
 
 Example:
 
-```python
+```bash
 sylvain@ubuntu$ curl -sI 34.198.248.145 | grep X-Served-By
 X-Served-By: 03-web-01
 sylvain@ubuntu$ curl -sI 54.89.38.100 | grep X-Served-By
@@ -57,7 +57,7 @@ Requirements: </br>
 
 Example:
 
-```python
+```bash
 sylvain@ubuntu$ curl -Is 54.210.47.110
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
