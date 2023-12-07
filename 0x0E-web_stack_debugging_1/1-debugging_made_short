@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Binding nginx to listen to port 80
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-kill "$(pgrep 'nginx' | head -1)"
 sudo service start nginx
+kill "$(pgrep 'nginx' | head -1)"
