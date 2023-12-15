@@ -44,7 +44,7 @@ The diagram should show:
 
 __2. Contribute!__
 <p>Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.</p>
-<br>[Contribution link](https://github.com/alex/what-happens-when#the-g-key-is-pressed)</br>
+[Contribution link](https://github.com/alex/what-happens-when#the-g-key-is-pressed) </br>
 
-Requirements:
+Requirement:</br>
 - The pull request must bring meaningful value (not a typo correction or style improvement)
