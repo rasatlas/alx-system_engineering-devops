@@ -14,7 +14,7 @@ __0. What happens when...__
 
 <p>This question is a good test of whether you understand DNS. Many software engineering candidates struggle with this concept, so if you do well on this question, you are already way ahead of the curve. If you take this project seriously and write an excellent article, it may be something that will grab the attention of future employers.</p>
 
-<p>Write a blog post explaining what happens when you type `https://www.google.com` in your browser and press `Enter`.</p>
+</br>Write a blog post explaining what happens when you type `https://www.google.com` in your browser and press `Enter`.</br>
 
 Requirements, your post must cover:
 
@@ -29,7 +29,7 @@ Requirements, your post must cover:
 <p>Publish your blog post on Medium or LinkedIn; share the URL of your blog post in your answer file and in the field below.</p>
 
 __1. Everything's better with a pretty diagram__
-<p>Add a schema to your blog post illustrating the flow of the request created when you type https://www.google.com in your browser and press Enter.</p>
+</br>Add a schema to your blog post illustrating the flow of the request created when you type `https://www.google.com` in your browser and press `Enter`.</br>
 
 The diagram should show:
 
@@ -44,7 +44,7 @@ The diagram should show:
 
 __2. Contribute!__
 <p>Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.</p>
-<p>[Contribution link](https://github.com/alex/what-happens-when#the-g-key-is-pressed)</p>
+<br>[Contribution link](https://github.com/alex/what-happens-when#the-g-key-is-pressed)</br>
 
 Requirements:
 - The pull request must bring meaningful value (not a typo correction or style improvement)
