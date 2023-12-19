@@ -45,7 +45,7 @@ mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
 ubuntu@229-web-01:~$
 ```
 
-__1.Let us in!__</br>
+__1. Let us in!__</br>
 In order for us to verify that your servers are properly configured, we need you to create a user and password for __both__ MySQL databases which will allow the checker access to them.
 - Create a MySQL user named `holberton_user` on both `web-01` and `web-02` with the host name set to `localhost` and the password `projectcorrection280hbtn`. This will allow us to access the replication status on both servers.
 - Make sure that `holberton_user` has permission to check the primary/replica status of your databases.
