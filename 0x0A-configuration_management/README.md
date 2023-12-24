@@ -1,5 +1,5 @@
 # 0x0A. Configuration management
-`DevOps` `SysAdmin` `Scripting` `CD\CD`
+`DevOps` `SysAdmin` `Scripting` `CI\CD`
 
 ## Requirements
 ### General
