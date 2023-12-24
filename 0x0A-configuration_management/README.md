@@ -32,7 +32,7 @@ $ gem install puppet-lint
 ```
 
 ## Tasks
-0 - Creating a file:
+__0. Creating a file:__
 - Using Puppet, create a file in /tmp.
 - Requirements:
 - File path is `/tmp/school`
@@ -55,7 +55,7 @@ root@6712bef7a528:~# ls -l /tmp/school
 root@6712bef7a528:~# cat /tmp/school
 I love Puppetroot@6712bef7a528:~#
 ```
-1 - Installing a package:
+__1. Installing a package:__
 - Using Puppet, install `flask` from `pip3`
 - Requirements:
 - Install `flask`
@@ -71,7 +71,7 @@ Python 3.8.10
 Flask 2.1.0
 Werkzeug 2.1.1
 ```
-2 - Executing a command:
+__2. Executing a command:__
 - Using Puppet, create a manifest that kills a process named `killmenow`.
 - Requirements:
 - Must use the `exec` Puppet resource
