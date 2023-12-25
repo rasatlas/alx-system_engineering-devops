@@ -66,7 +66,7 @@ In this example, I:</br>
 - execute my `0-transfer_file` script
 - remotely execute the `ls ~/` command via `ssh` to see that the file `some_page.html` has been successfully transferred</br>
 That is one way of publishing your website pages to your server.
-
+<hr>
 __1. Install nginx web server__</br>
 Web servers are the piece of software generating and serving HTML pages, let’s install one!</br>
 
@@ -112,7 +112,7 @@ __Maarten’s PRO-tip:__ When you use `sudo su` on your web-01 you can become ro
 sylvain@ubuntu$ sudo su
 root@ubuntu#
 ```
-
+<hr>
 __2. Setup a domain name__</br>
 Provide the domain name in your answer file.</br>
 
@@ -152,7 +152,7 @@ sylvain@ubuntu$
 ```
 
 When your domain name is setup, please verify the Registrar here: `https://whois.whoisxmlapi.com/` and you must see in the JSON response: `"registrarName": "Dotserve Inc"`
-
+<hr>
 __3. Redirection__</br>
 Readme:
 - [Replace a line with multiple lines with sed](https://stackoverflow.com/questions/26041088/sed-replace-line-with-multiline-variable)</br>
@@ -176,3 +176,5 @@ Location: https://www.youtube.com/watch?v=QH2-TGUlwu4
 
 sylvain@ubuntu$
 ```
+<hr>
+
