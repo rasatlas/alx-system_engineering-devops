@@ -66,7 +66,7 @@ In this example, I:</br>
 - execute my `0-transfer_file` script
 - remotely execute the `ls ~/` command via `ssh` to see that the file `some_page.html` has been successfully transferred</br>
 That is one way of publishing your website pages to your server.
-<hr style="height:1px"> 
+<hr style="height:1px;"> 
 
 __1. Install nginx web server__</br>
 Web servers are the piece of software generating and serving HTML pages, let’s install one!</br>
