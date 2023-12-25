@@ -4,11 +4,11 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 
-sudo echo "Hello Wolrd!" > /var/www/html/index.html
+echo "Hello Wolrd!" > /var/www/html/index.html
 sudo touch /var/www/html/404.html
-sudo echo "Ceci n'est pas une page" > /var/www/html/404.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
 
-sudo echo "server {
+echo "server {
     listen 80 default_server;
     listen [::]:80 default_server;
     add_header X-Served-By 316245-web-01;
