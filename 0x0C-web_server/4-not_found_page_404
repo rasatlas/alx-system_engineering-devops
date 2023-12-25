@@ -27,7 +27,7 @@ sudo echo "server {
     location = /404.html{
 		internal;
     }
-}" > /etc/nginx/sites-enabled/default
+}" > /etc/nginx/sites-available/default
 
 if [ "$(pgrep -c nginx)" -le 0 ]; then
 	sudo service nginx start
