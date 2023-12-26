@@ -35,7 +35,7 @@ backend nginx_back
 	server 316245-web-01 100.25.20.203:80 check
 	server 316245-web-02 18.235.243.68:80 check"
 
-cat $haproxy_conf | sudo tee /etc/haproxy/haproxy.cfg
+echo "$haproxy_conf" | sudo tee /etc/haproxy/haproxy.cfg
 
 # Enable HAProxy management via init script
 sudo systemctl enable haproxy
