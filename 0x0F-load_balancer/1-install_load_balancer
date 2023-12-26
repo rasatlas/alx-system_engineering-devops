@@ -24,9 +24,6 @@ echo \
 defaults
 	log global
 	mode http
-	timeout connect 5000ms
-	timeout client  50000ms
-	timeout server  50000ms
 
 frontend haproxy_main
 	bind *:80
