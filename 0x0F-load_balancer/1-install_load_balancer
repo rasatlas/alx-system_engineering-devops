@@ -30,11 +30,12 @@ defaults
 
 frontend haproxy_main
 	bind *:80
-	option forwardfor
+	option http-server-close
 	default_backend nginx_back
 
 backend nginx_back
 	balance roundrobin
+	option http-server-close
 	server 316245-web-01 100.25.20.203:80 check
 	server 316245-web-02 18.235.243.68:80 check" | sudo tee /etc/haproxy/haproxy.cfg
 
