@@ -3,7 +3,7 @@
 Python script that, using https://jsonplaceholder.typicode.com/ REST API,
 gather data and export it as a JSON dictionary file.
 """
-import jsson
+import json
 import re
 import requests
 import sys
