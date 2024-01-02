@@ -13,7 +13,7 @@ One popular way to expose an application and dataset is to use an API. Often, th
 This is a perfect example of a task that is not suited for Bash scripting, so let’s build Python scripts.
 </p>
 
-##Resources</br>
+## Resources</br>
 __Read or watch:__</br>
 - [Friends don’t let friends program in shell script](https://www.turnkeylinux.org/blog/friends-dont-let-friends-program-shell-script)
 - [What is an API](https://www.webopedia.com/definitions/api/)
