@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """A function that queries the Reddit API."""
-import requests 
+import requests
 import sys
 
 
 if len(sys.argv) > 1:
     subreddits = sys.argv[1]
+
 
 def number_of_subscribers(subreddit):
     """
