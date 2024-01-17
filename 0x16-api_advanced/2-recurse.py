@@ -16,13 +16,13 @@ def recurse(subreddit, hot_list=[], after=None):
     headers = {"User-Agent": "/u/guest"}
 
     resp = requests.get(url,
-                       headers=headers,
-                       params=params,
-                       allow_redirects=False)
+                        headers=headers,
+                        params=params,
+                        allow_redirects=False)
 
     if resp.status_code != 200:
         return None
-    
+
     data = resp.json()
     hot_posts = data['data']['children']
     if len(hot_posts) == 0:
