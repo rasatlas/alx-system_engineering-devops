@@ -42,3 +42,6 @@ Requirements:
 - Be brief and straight to the point, between 400 to 600 words
 
 While postmortem format can vary, stick to this one.
+
+- [Postmortem — How I resolved an HTTP 500 Error with TMUX and STRACE](https://medium.com/@rasatlas/postmortem-how-i-resolved-an-http-500-error-with-tmux-and-strace-e0e5c4be7486)
+
