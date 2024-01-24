@@ -1,7 +1,7 @@
 # 0x1A. Application server
 `DevOps` `SysAdmin`
 
-![Application Server](Application Server.jpg)
+![Application Server](https://github.com/rasatlas/alx-system_engineering-devops/blob/master/0x1A-application_server/Applicaiton%20Server.jpg)
 
 ## Background Context
 
