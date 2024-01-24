@@ -1,7 +1,7 @@
 # 0x1A. Application server
 `DevOps` `SysAdmin`
 
-![['Application Server.jpg']]
+![[Application Server.jpg]]
 
 ## Background Context
 
