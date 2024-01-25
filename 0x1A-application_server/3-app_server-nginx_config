@@ -13,9 +13,9 @@ server {
         proxy_pass http://127.0.0.1:5000/airbnb-onepage/;
     }
 
-    # Serving /airbnb-dynamic/number_odd_or_even/(any integer) route
+    # Serving /number_odd_or_even/(any integer) route
     location ~ /airbnb-dynamic/number_odd_or_even/(\d+)$ {
-        proxy_pass http://127.0.0.1:5001/airbnb-dynamic/number_odd_or_even/$1;
+        proxy_pass http://127.0.0.1:5001/number_odd_or_even/$1;
     }
 
     location /redirect_me {
