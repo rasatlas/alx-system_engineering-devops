@@ -25,7 +25,7 @@ server {
 
     # Serving /2-hbnb route from AirBnB_clone_v4
     location / {
-        proxy_pass http://127.0.0.1:5003/web_dynamic/2-hbnb;
+        proxy_pass http://127.0.0.1:5003/2-hbnb;
     }
 
     location /redirect_me {
