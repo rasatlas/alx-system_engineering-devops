@@ -28,6 +28,11 @@ server {
         proxy_pass http://127.0.0.1:5003/2-hbnb;
     }
 
+    # Serving static pages for AirBnB_clone_v4
+    location /static {
+        alias /home/ubuntu/AirBnB_clone_v4/web_dynamic/static/;
+    }
+
     location /redirect_me {
         return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
     }
